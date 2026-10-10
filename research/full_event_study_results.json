@@ -1,0 +1,696 @@
+{
+  "source_catalogue": "https://www.sbp.org.pk/our-operations/publications/monetary-policy-statements/501",
+  "horizon_observations": 20,
+  "development_years": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "temporal_holdout_year": 2025,
+  "statement_date_count": 40,
+  "year_results": {
+    "2021": {
+      "n_statements": 7,
+      "n_control_anchors": 75,
+      "mean_statement_max_excursion_pct": 1.939732713937316,
+      "mean_control_max_excursion_pct": 1.8325669882367586,
+      "statement_minus_control_pp": 0.10716572570055738,
+      "median_statement_max_excursion_pct": 2.0601456432862264,
+      "median_control_max_excursion_pct": 1.950494796404345,
+      "mean_statement_abs_endpoint_pct": 1.8405343801613991,
+      "mean_control_abs_endpoint_pct": 1.4185636981595653,
+      "statement_outcomes": [
+        {
+          "anchor": "2021-01-22",
+          "start": "2021-01-25",
+          "end": "2021-02-22",
+          "start_rate": 160.542069,
+          "end_rate": 158.911379,
+          "endpoint_pct": -1.0157399927367194,
+          "max_abs_excursion_pct": 1.1678110364953698,
+          "max_up_pct": 0.0,
+          "max_down_pct": -1.1678110364953698
+        },
+        {
+          "anchor": "2021-03-19",
+          "start": "2021-03-22",
+          "end": "2021-04-20",
+          "start_rate": 155.747241,
+          "end_rate": 152.721035,
+          "endpoint_pct": -1.943023825378709,
+          "max_abs_excursion_pct": 2.0601456432862264,
+          "max_up_pct": 0.0,
+          "max_down_pct": -2.0601456432862264
+        },
+        {
+          "anchor": "2021-05-28",
+          "start": "2021-05-31",
+          "end": "2021-06-25",
+          "start_rate": 154.168621,
+          "end_rate": 157.325172,
+          "endpoint_pct": 2.0474665853046803,
+          "max_abs_excursion_pct": 2.47266206006993,
+          "max_up_pct": 2.47266206006993,
+          "max_down_pct": -0.00492058627157288
+        },
+        {
+          "anchor": "2021-07-27",
+          "start": "2021-07-28",
+          "end": "2021-08-26",
+          "start_rate": 161.224828,
+          "end_rate": 165.907241,
+          "endpoint_pct": 2.904275388651678,
+          "max_abs_excursion_pct": 2.904275388651678,
+          "max_up_pct": 2.904275388651678,
+          "max_down_pct": 0.0
+        },
+        {
+          "anchor": "2021-09-20",
+          "start": "2021-09-21",
+          "end": "2021-10-18",
+          "start_rate": 168.296207,
+          "end_rate": 171.725517,
+          "endpoint_pct": 2.037663273064716,
+          "max_abs_excursion_pct": 2.037663273064716,
+          "max_up_pct": 2.037663273064716,
+          "max_down_pct": 0.0
+        },
+        {
+          "anchor": "2021-11-19",
+          "start": "2021-11-22",
+          "end": "2021-12-17",
+          "start_rate": 173.975517,
+          "end_rate": 177.704483,
+          "endpoint_pct": 2.143385497167416,
+          "max_abs_excursion_pct": 2.143385497167416,
+          "max_up_pct": 2.143385497167416,
+          "max_down_pct": 0.0
+        },
+        {
+          "anchor": "2021-12-14",
+          "start": "2021-12-15",
+          "end": "2022-01-12",
+          "start_rate": 177.553103,
+          "end_rate": 176.146552,
+          "endpoint_pct": -0.7921860988258755,
+          "max_abs_excursion_pct": 0.7921860988258755,
+          "max_up_pct": 0.22314845153676988,
+          "max_down_pct": -0.7921860988258755
+        }
+      ]
+    },
+    "2022": {
+      "n_statements": 8,
+      "n_control_anchors": 60,
+      "mean_statement_max_excursion_pct": 5.162168019119571,
+      "mean_control_max_excursion_pct": 4.624151743140518,
+      "statement_minus_control_pp": 0.5380162759790528,
+      "median_statement_max_excursion_pct": 3.7428744471159128,
+      "median_control_max_excursion_pct": 3.2686906882645195,
+      "mean_statement_abs_endpoint_pct": 3.5523681404036083,
+      "mean_control_abs_endpoint_pct": 2.827060072814907,
+      "statement_outcomes": [
+        {
+          "anchor": "2022-01-24",
+          "start": "2022-01-25",
+          "end": "2022-02-21",
+          "start_rate": 176.316552,
+          "end_rate": 175.719138,
+          "endpoint_pct": -0.33883035553009533,
+          "max_abs_excursion_pct": 1.1293363994550054,
+          "max_up_pct": 0.2827981799462531,
+          "max_down_pct": -1.1293363994550054
+        },
+        {
+          "anchor": "2022-03-08",
+          "start": "2022-03-09",
+          "end": "2022-04-07",
+          "start_rate": 178.487069,
+          "end_rate": 187.136379,
+          "endpoint_pct": 4.845902870420282,
+          "max_abs_excursion_pct": 4.845902870420282,
+          "max_up_pct": 4.845902870420282,
+          "max_down_pct": -0.025501567287200544
+        },
+        {
+          "anchor": "2022-04-07",
+          "start": "2022-04-08",
+          "end": "2022-05-06",
+          "start_rate": 187.184655,
+          "end_rate": 185.703621,
+          "endpoint_pct": -0.7912154978729435,
+          "max_abs_excursion_pct": 3.0983602795859544,
+          "max_up_pct": 0.0,
+          "max_down_pct": -3.0983602795859544
+        },
+        {
+          "anchor": "2022-05-23",
+          "start": "2022-05-24",
+          "end": "2022-06-20",
+          "start_rate": 200.468793,
+          "end_rate": 209.264138,
+          "endpoint_pct": 4.387388614645871,
+          "max_abs_excursion_pct": 4.387388614645871,
+          "max_up_pct": 4.387388614645871,
+          "max_down_pct": -1.4493612479624218
+        },
+        {
+          "anchor": "2022-07-07",
+          "start": "2022-07-13",
+          "end": "2022-08-11",
+          "start_rate": 207.996552,
+          "end_rate": 219.672414,
+          "endpoint_pct": 5.613488246670539,
+          "max_abs_excursion_pct": 15.35834449794149,
+          "max_up_pct": 15.35834449794149,
+          "max_down_pct": 0.0
+        },
+        {
+          "anchor": "2022-08-22",
+          "start": "2022-08-23",
+          "end": "2022-09-19",
+          "start_rate": 216.546552,
+          "end_rate": 237.432759,
+          "endpoint_pct": 9.64513487150791,
+          "max_abs_excursion_pct": 9.64513487150791,
+          "max_up_pct": 9.64513487150791,
+          "max_down_pct": 0.0
+        },
+        {
+          "anchor": "2022-10-10",
+          "start": "2022-10-11",
+          "end": "2022-11-07",
+          "start_rate": 217.127241,
+          "end_rate": 221.6424137931035,
+          "endpoint_pct": 2.079505442204499,
+          "max_abs_excursion_pct": 2.115397395023333,
+          "max_up_pct": 2.115397395023333,
+          "max_down_pct": 0.0
+        },
+        {
+          "anchor": "2022-11-25",
+          "start": "2022-11-28",
+          "end": "2022-12-23",
+          "start_rate": 223.82,
+          "end_rate": 225.425862,
+          "endpoint_pct": 0.717479224376727,
+          "max_abs_excursion_pct": 0.717479224376727,
+          "max_up_pct": 0.717479224376727,
+          "max_down_pct": -0.11970824769904631
+        }
+      ]
+    },
+    "2023": {
+      "n_statements": 9,
+      "n_control_anchors": 51,
+      "mean_statement_max_excursion_pct": 5.125272961901502,
+      "mean_control_max_excursion_pct": 3.003169499939031,
+      "statement_minus_control_pp": 2.1221034619624715,
+      "median_statement_max_excursion_pct": 3.639431188238118,
+      "median_control_max_excursion_pct": 3.091399531035499,
+      "mean_statement_abs_endpoint_pct": 3.9172431645224957,
+      "mean_control_abs_endpoint_pct": 1.8170283151500561,
+      "statement_outcomes": [
+        {
+          "anchor": "2023-01-23",
+          "start": "2023-01-24",
+          "end": "2023-02-20",
+          "start_rate": 230.30862068965516,
+          "end_rate": 261.717241,
+          "endpoint_pct": 13.637622515515169,
+          "max_abs_excursion_pct": 19.69096952365268,
+          "max_up_pct": 19.69096952365268,
+          "max_down_pct": 0.0
+        },
+        {
+          "anchor": "2023-03-02",
+          "start": "2023-03-03",
+          "end": "2023-04-03",
+          "start_rate": 278.5406896551724,
+          "end_rate": 284.00172413793103,
+          "endpoint_pct": 1.960587693496163,
+          "max_abs_excursion_pct": 1.960587693496163,
+          "max_up_pct": 1.960587693496163,
+          "max_down_pct": -0.7994869814105132
+        },
+        {
+          "anchor": "2023-04-04",
+          "start": "2023-04-05",
+          "end": "2023-05-08",
+          "start_rate": 287.30172413793105,
+          "end_rate": 283.694828,
+          "endpoint_pct": -1.2554383892939835,
+          "max_abs_excursion_pct": 1.302847541032781,
+          "max_up_pct": 0.20103819725747485,
+          "max_down_pct": -1.302847541032781
+        },
+        {
+          "anchor": "2023-06-12",
+          "start": "2023-06-13",
+          "end": "2023-07-14",
+          "start_rate": 287.5706896551724,
+          "end_rate": 276.6224137931035,
+          "endpoint_pct": -3.807159858745357,
+          "max_abs_excursion_pct": 4.1195268329825785,
+          "max_up_pct": 0.0,
+          "max_down_pct": -4.1195268329825785
+        },
+        {
+          "anchor": "2023-06-26",
+          "start": "2023-06-27",
+          "end": "2023-07-31",
+          "start_rate": 286.13793103448273,
+          "end_rate": 286.3289655172414,
+          "endpoint_pct": 0.06676307543986848,
+          "max_abs_excursion_pct": 3.639431188238118,
+          "max_up_pct": 0.6712460833935951,
+          "max_down_pct": -3.639431188238118
+        },
+        {
+          "anchor": "2023-07-31",
+          "start": "2023-08-01",
+          "end": "2023-08-29",
+          "start_rate": 286.71655172413796,
+          "end_rate": 302.2575862068966,
+          "endpoint_pct": 5.420347862481023,
+          "max_abs_excursion_pct": 5.420347862481023,
+          "max_up_pct": 5.420347862481023,
+          "max_down_pct": 0.0
+        },
+        {
+          "anchor": "2023-09-14",
+          "start": "2023-09-15",
+          "end": "2023-10-13",
+          "start_rate": 297.08137931034486,
+          "end_rate": 277.6672413793104,
+          "endpoint_pct": -6.534956171303341,
+          "max_abs_excursion_pct": 6.534956171303341,
+          "max_up_pct": 0.0,
+          "max_down_pct": -6.534956171303341
+        },
+        {
+          "anchor": "2023-10-30",
+          "start": "2023-10-31",
+          "end": "2023-11-28",
+          "start_rate": 280.848275862069,
+          "end_rate": 285.4862068965517,
+          "endpoint_pct": 1.6514009282223796,
+          "max_abs_excursion_pct": 2.53787785772166,
+          "max_up_pct": 2.53787785772166,
+          "max_down_pct": 0.0
+        },
+        {
+          "anchor": "2023-12-12",
+          "start": "2023-12-13",
+          "end": "2024-01-11",
+          "start_rate": 283.56448275862067,
+          "end_rate": 280.95310344827584,
+          "endpoint_pct": -0.9209119862051751,
+          "max_abs_excursion_pct": 0.9209119862051751,
+          "max_up_pct": 0.0,
+          "max_down_pct": -0.9209119862051751
+        }
+      ]
+    },
+    "2024": {
+      "n_statements": 8,
+      "n_control_anchors": 45,
+      "mean_statement_max_excursion_pct": 0.13802083990135383,
+      "mean_control_max_excursion_pct": 0.09255148298473762,
+      "statement_minus_control_pp": 0.045469356916616216,
+      "median_statement_max_excursion_pct": 0.09869900517940344,
+      "median_control_max_excursion_pct": 0.08972383621999036,
+      "mean_statement_abs_endpoint_pct": 0.09647982789057208,
+      "mean_control_abs_endpoint_pct": 0.05830379123765149,
+      "statement_outcomes": [
+        {
+          "anchor": "2024-01-29",
+          "start": "2024-01-30",
+          "end": "2024-02-28",
+          "start_rate": 279.3962068965517,
+          "end_rate": 279.0637931034483,
+          "endpoint_pct": -0.11897577164549089,
+          "max_abs_excursion_pct": 0.11897577164549089,
+          "max_up_pct": 0.0,
+          "max_down_pct": -0.11897577164549089
+        },
+        {
+          "anchor": "2024-03-18",
+          "start": "2024-03-19",
+          "end": "2024-04-18",
+          "start_rate": 278.67241379310343,
+          "end_rate": 278.3048275862069,
+          "endpoint_pct": -0.1319062055311404,
+          "max_abs_excursion_pct": 0.2946235228608485,
+          "max_up_pct": 0.0,
+          "max_down_pct": -0.2946235228608485
+        },
+        {
+          "anchor": "2024-04-29",
+          "start": "2024-04-30",
+          "end": "2024-05-29",
+          "start_rate": 278.33413793103443,
+          "end_rate": 278.30517241379306,
+          "endpoint_pct": -0.010406742578072947,
+          "max_abs_excursion_pct": 0.078422238713316,
+          "max_up_pct": 0.017964019926464125,
+          "max_down_pct": -0.078422238713316
+        },
+        {
+          "anchor": "2024-06-10",
+          "start": "2024-06-11",
+          "end": "2024-07-12",
+          "start_rate": 278.4089655172414,
+          "end_rate": 278.50344827586207,
+          "endpoint_pct": 0.033936679605517384,
+          "max_abs_excursion_pct": 0.05994654353678186,
+          "max_up_pct": 0.05994654353678186,
+          "max_down_pct": -0.02737228537530445
+        },
+        {
+          "anchor": "2024-07-29",
+          "start": "2024-07-30",
+          "end": "2024-08-27",
+          "start_rate": 278.49827586206897,
+          "end_rate": 278.44655172413786,
+          "endpoint_pct": -0.018572516390269467,
+          "max_abs_excursion_pct": 0.04828854261464954,
+          "max_up_pct": 0.04828854261464954,
+          "max_down_pct": -0.04147861993822888
+        },
+        {
+          "anchor": "2024-09-12",
+          "start": "2024-09-13",
+          "end": "2024-10-11",
+          "start_rate": 278.2896551724138,
+          "end_rate": 277.6603448275862,
+          "endpoint_pct": -0.22613501189533425,
+          "max_abs_excursion_pct": 0.2595906026962691,
+          "max_up_pct": 0.0,
+          "max_down_pct": -0.2595906026962691
+        },
+        {
+          "anchor": "2024-11-04",
+          "start": "2024-11-05",
+          "end": "2024-12-02",
+          "start_rate": 277.7775862068965,
+          "end_rate": 277.9068965517241,
+          "endpoint_pct": 0.046551756242596554,
+          "max_abs_excursion_pct": 0.058965557907320054,
+          "max_up_pct": 0.058965557907320054,
+          "max_down_pct": -0.03227588432818118
+        },
+        {
+          "anchor": "2024-12-16",
+          "start": "2024-12-17",
+          "end": "2025-01-15",
+          "start_rate": 278.1258620689655,
+          "end_rate": 278.64137931034486,
+          "endpoint_pct": 0.18535393923615473,
+          "max_abs_excursion_pct": 0.18535393923615473,
+          "max_up_pct": 0.18535393923615473,
+          "max_down_pct": 0.0
+        }
+      ]
+    },
+    "2025": {
+      "n_statements": 8,
+      "n_control_anchors": 52,
+      "mean_statement_max_excursion_pct": 0.2714910316037836,
+      "mean_control_max_excursion_pct": 0.21951337852559785,
+      "statement_minus_control_pp": 0.05197765307818572,
+      "median_statement_max_excursion_pct": 0.28065241792134543,
+      "median_control_max_excursion_pct": 0.1831413903751633,
+      "mean_statement_abs_endpoint_pct": 0.2672920264843878,
+      "mean_control_abs_endpoint_pct": 0.19431320833969382,
+      "statement_outcomes": [
+        {
+          "anchor": "2025-01-27",
+          "start": "2025-01-28",
+          "end": "2025-02-25",
+          "start_rate": 278.74827586206897,
+          "end_rate": 279.6689655172414,
+          "endpoint_pct": 0.33029429592885684,
+          "max_abs_excursion_pct": 0.33029429592885684,
+          "max_up_pct": 0.33029429592885684,
+          "max_down_pct": 0.0
+        },
+        {
+          "anchor": "2025-03-10",
+          "start": "2025-03-11",
+          "end": "2025-04-10",
+          "start_rate": 279.9575862068965,
+          "end_rate": 280.6620689655173,
+          "endpoint_pct": 0.2516391029675935,
+          "max_abs_excursion_pct": 0.26826723752491066,
+          "max_up_pct": 0.26826723752491066,
+          "max_down_pct": 0.0
+        },
+        {
+          "anchor": "2025-05-05",
+          "start": "2025-05-06",
+          "end": "2025-06-03",
+          "start_rate": 281.2396551724138,
+          "end_rate": 282.0249999999999,
+          "endpoint_pct": 0.27924398751828505,
+          "max_abs_excursion_pct": 0.2930375983177802,
+          "max_up_pct": 0.2930375983177802,
+          "max_down_pct": 0.0
+        },
+        {
+          "anchor": "2025-06-16",
+          "start": "2025-06-17",
+          "end": "2025-07-15",
+          "start_rate": 283.2160714285714,
+          "end_rate": 284.71607142857135,
+          "endpoint_pct": 0.5296309607127014,
+          "max_abs_excursion_pct": 0.5296309607127014,
+          "max_up_pct": 0.5296309607127014,
+          "max_down_pct": 0.0
+        },
+        {
+          "anchor": "2025-07-30",
+          "start": "2025-07-31",
+          "end": "2025-08-28",
+          "start_rate": 282.9446428571428,
+          "end_rate": 281.8571428571429,
+          "endpoint_pct": -0.38435080057303006,
+          "max_abs_excursion_pct": 0.38435080057303006,
+          "max_up_pct": 0.0,
+          "max_down_pct": -0.38435080057303006
+        },
+        {
+          "anchor": "2025-09-15",
+          "start": "2025-09-16",
+          "end": "2025-10-13",
+          "start_rate": 281.6321428571429,
+          "end_rate": 281.33571428571423,
+          "endpoint_pct": -0.1052538138656467,
+          "max_abs_excursion_pct": 0.10842410946400038,
+          "max_up_pct": 0.0,
+          "max_down_pct": -0.10842410946400038
+        },
+        {
+          "anchor": "2025-10-27",
+          "start": "2025-10-28",
+          "end": "2025-11-24",
+          "start_rate": 281.1196428571428,
+          "end_rate": 280.8035714285714,
+          "endpoint_pct": -0.11243306421389043,
+          "max_abs_excursion_pct": 0.11243306421389043,
+          "max_up_pct": 0.0,
+          "max_down_pct": -0.11243306421389043
+        },
+        {
+          "anchor": "2025-12-15",
+          "start": "2025-12-16",
+          "end": "2026-01-14",
+          "start_rate": 280.57857142857154,
+          "end_rate": 280.17035714285714,
+          "endpoint_pct": -0.14549018609509856,
+          "max_abs_excursion_pct": 0.14549018609509856,
+          "max_up_pct": 0.0,
+          "max_down_pct": -0.14549018609509856
+        }
+      ]
+    }
+  },
+  "development_mean_of_year_differences_pp": 0.7031887051396745,
+  "holdout_2025_difference_pp": 0.05197765307818572,
+  "development_year_sign_flip": {
+    "two_sided_p": 0.125,
+    "n_years": 4,
+    "n_permutations": 16
+  },
+  "all_year_sign_flip": {
+    "two_sided_p": 0.0625,
+    "n_years": 5,
+    "n_permutations": 32
+  },
+  "holdout_direction_matches_development": true,
+  "limitations": [
+    "The study question was motivated by examining the five earlier case-study windows; development years are not preregistered.",
+    "Control dates in a year have overlapping 20-observation windows and are not independent trials.",
+    "Policy meetings are scheduled in response to economic conditions; this is not a causal estimate.",
+    "FX series consists of retrospective bank-average reference observations, not tradable bid/ask quotes or verified real-time data.",
+    "Calendar 2025 is a single temporal holdout year; it cannot validate a trading strategy.",
+    "Year-level sign-flip reference needs exchangeable signs under a zero-effect null; five calendar years do not establish that assumption or test 2025 on its own.",
+    "A non-significant p-value is not evidence of equivalence or zero effect."
+  ],
+  "horizon_sensitivity": {
+    "5": {
+      "development_mean_of_year_differences_pp": 0.429398151837982,
+      "holdout_2025_difference_pp": 0.013768793146158156,
+      "development_year_sign_flip": {
+        "two_sided_p": 0.625,
+        "n_years": 4,
+        "n_permutations": 16
+      },
+      "all_year_sign_flip": {
+        "two_sided_p": 0.5625,
+        "n_years": 5,
+        "n_permutations": 32
+      },
+      "year_results": {
+        "2021": {
+          "n_statements": 7,
+          "n_control_anchors": 177,
+          "mean_statement_max_excursion_pct": 0.6190627915871391,
+          "mean_control_max_excursion_pct": 0.5693387353292625,
+          "statement_minus_control_pp": 0.04972405625787657
+        },
+        "2022": {
+          "n_statements": 8,
+          "n_control_anchors": 176,
+          "mean_statement_max_excursion_pct": 1.447657832117745,
+          "mean_control_max_excursion_pct": 1.567085407140641,
+          "statement_minus_control_pp": -0.11942757502289614
+        },
+        "2023": {
+          "n_statements": 9,
+          "n_control_anchors": 161,
+          "mean_statement_max_excursion_pct": 2.710878322974144,
+          "mean_control_max_excursion_pct": 0.9386505866518338,
+          "statement_minus_control_pp": 1.7722277363223102
+        },
+        "2024": {
+          "n_statements": 8,
+          "n_control_anchors": 167,
+          "mean_statement_max_excursion_pct": 0.07754871581319017,
+          "mean_control_max_excursion_pct": 0.06248032601855283,
+          "statement_minus_control_pp": 0.015068389794637344
+        },
+        "2025": {
+          "n_statements": 8,
+          "n_control_anchors": 169,
+          "mean_statement_max_excursion_pct": 0.0774155481800487,
+          "mean_control_max_excursion_pct": 0.06364675503389054,
+          "statement_minus_control_pp": 0.013768793146158156
+        }
+      }
+    },
+    "10": {
+      "development_mean_of_year_differences_pp": 0.40959038601704645,
+      "holdout_2025_difference_pp": 0.0027290325798931814,
+      "development_year_sign_flip": {
+        "two_sided_p": 0.625,
+        "n_years": 4,
+        "n_permutations": 16
+      },
+      "all_year_sign_flip": {
+        "two_sided_p": 0.5625,
+        "n_years": 5,
+        "n_permutations": 32
+      },
+      "year_results": {
+        "2021": {
+          "n_statements": 7,
+          "n_control_anchors": 138,
+          "mean_statement_max_excursion_pct": 1.1037104065926713,
+          "mean_control_max_excursion_pct": 1.0630745498261105,
+          "statement_minus_control_pp": 0.040635856766560785
+        },
+        "2022": {
+          "n_statements": 8,
+          "n_control_anchors": 136,
+          "mean_statement_max_excursion_pct": 2.8022399990777727,
+          "mean_control_max_excursion_pct": 3.062994606773375,
+          "statement_minus_control_pp": -0.2607546076956022
+        },
+        "2023": {
+          "n_statements": 9,
+          "n_control_anchors": 121,
+          "mean_statement_max_excursion_pct": 3.6776990036584696,
+          "mean_control_max_excursion_pct": 1.8328729520761817,
+          "statement_minus_control_pp": 1.8448260515822879
+        },
+        "2024": {
+          "n_statements": 8,
+          "n_control_anchors": 127,
+          "mean_statement_max_excursion_pct": 0.11470458669073091,
+          "mean_control_max_excursion_pct": 0.1010503432757916,
+          "statement_minus_control_pp": 0.013654243414939315
+        },
+        "2025": {
+          "n_statements": 8,
+          "n_control_anchors": 129,
+          "mean_statement_max_excursion_pct": 0.12561427323686536,
+          "mean_control_max_excursion_pct": 0.12288524065697218,
+          "statement_minus_control_pp": 0.0027290325798931814
+        }
+      }
+    },
+    "20": {
+      "development_mean_of_year_differences_pp": 0.7031887051396745,
+      "holdout_2025_difference_pp": 0.05197765307818572,
+      "development_year_sign_flip": {
+        "two_sided_p": 0.125,
+        "n_years": 4,
+        "n_permutations": 16
+      },
+      "all_year_sign_flip": {
+        "two_sided_p": 0.0625,
+        "n_years": 5,
+        "n_permutations": 32
+      },
+      "year_results": {
+        "2021": {
+          "n_statements": 7,
+          "n_control_anchors": 75,
+          "mean_statement_max_excursion_pct": 1.939732713937316,
+          "mean_control_max_excursion_pct": 1.8325669882367586,
+          "statement_minus_control_pp": 0.10716572570055738
+        },
+        "2022": {
+          "n_statements": 8,
+          "n_control_anchors": 60,
+          "mean_statement_max_excursion_pct": 5.162168019119571,
+          "mean_control_max_excursion_pct": 4.624151743140518,
+          "statement_minus_control_pp": 0.5380162759790528
+        },
+        "2023": {
+          "n_statements": 9,
+          "n_control_anchors": 51,
+          "mean_statement_max_excursion_pct": 5.125272961901502,
+          "mean_control_max_excursion_pct": 3.003169499939031,
+          "statement_minus_control_pp": 2.1221034619624715
+        },
+        "2024": {
+          "n_statements": 8,
+          "n_control_anchors": 45,
+          "mean_statement_max_excursion_pct": 0.13802083990135383,
+          "mean_control_max_excursion_pct": 0.09255148298473762,
+          "statement_minus_control_pp": 0.045469356916616216
+        },
+        "2025": {
+          "n_statements": 8,
+          "n_control_anchors": 52,
+          "mean_statement_max_excursion_pct": 0.2714910316037836,
+          "mean_control_max_excursion_pct": 0.21951337852559785,
+          "statement_minus_control_pp": 0.05197765307818572
+        }
+      }
+    }
+  }
+}

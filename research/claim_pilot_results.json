@@ -1,0 +1,57 @@
+{
+  "n": 30,
+  "accuracy": 0.833,
+  "accuracy_with_correct_fact_anchor": 0.833,
+  "abstention_rate": 0.1,
+  "wrong_or_missing_fact_anchor": 0,
+  "errors": [
+    {
+      "id": "may_rate_c",
+      "document_date": "2022-05-23",
+      "gold": "contradicted",
+      "predicted": "abstain",
+      "evidence_fact_id": "may_rate",
+      "claim": "The May policy decision set the rate at 12.25 percent.",
+      "source_url": "https://www.sbp.org.pk/assets/document/publications/MPS-May-2022-Eng.pdf"
+    },
+    {
+      "id": "aug_cpi_c",
+      "document_date": "2022-08-22",
+      "gold": "contradicted",
+      "predicted": "abstain",
+      "evidence_fact_id": "aug_cpi",
+      "claim": "The statement reported July inflation of 14.9 percent.",
+      "source_url": "https://www.sbp.org.pk/assets/document/publications/MPS-Aug-2022-Eng.pdf"
+    },
+    {
+      "id": "aug_reserves_s",
+      "document_date": "2022-08-22",
+      "gold": "supported",
+      "predicted": "contradicted",
+      "evidence_fact_id": "aug_reserves",
+      "claim": "On August 12 reserves stood at 7.9 billion dollars.",
+      "source_url": "https://www.sbp.org.pk/assets/document/publications/MPS-Aug-2022-Eng.pdf"
+    },
+    {
+      "id": "sep_rate_c",
+      "document_date": "2023-09-14",
+      "gold": "contradicted",
+      "predicted": "abstain",
+      "evidence_fact_id": "sep_rate",
+      "claim": "SBP reduced its policy rate to 20 percent.",
+      "source_url": "https://www.sbp.org.pk/assets/document/publications/MPS-Sep-2023-Eng.pdf"
+    },
+    {
+      "id": "sep_cpi_c",
+      "document_date": "2023-09-14",
+      "gold": "contradicted",
+      "predicted": "supported",
+      "evidence_fact_id": "sep_cpi",
+      "claim": "The statement put August inflation at 38 percent.",
+      "source_url": "https://www.sbp.org.pk/assets/document/publications/MPS-Sep-2023-Eng.pdf"
+    }
+  ],
+  "limits": "Pilot contains paraphrased anchors and two closely related claims per fact. No independent holdout, exact PDF passage verification, measured LLM, or production inference.",
+  "method": "TF-IDF within-document retrieval plus numeric and polarity heuristics",
+  "sample": "30 synthetic contrast claims derived from 15 manually checked facts across five SBP statements; NOT an independent LLM benchmark"
+}

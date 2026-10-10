@@ -1,0 +1,88 @@
+{
+  "design": {
+    "research_question": "Are 20-observation FX reference-rate excursions larger after five selected SBP statements than at same-year non-event dates?",
+    "design_status": "Exploratory: designed after viewing event dates and some historical FX movements. Not preregistered, confirmatory, or out of sample.",
+    "primary_metric": "Mean of the maximum absolute percentage move relative to the first post-event observation",
+    "event_count": 5,
+    "horizon_observations": 20,
+    "policy_date_catalogue": "https://www.sbp.org.pk/our-operations/publications/monetary-policy-statements/501",
+    "placebo_year_match": true,
+    "exclude_within_calendar_days": 7,
+    "random_seed": 501613,
+    "placebo_resamples_with_replacement": 10000,
+    "caution": "Retrospective observational reference-rate comparison, not causal inference or an executable trading backtest. Five hand-selected events; periods selected for the case study."
+  },
+  "events": [
+    {
+      "anchor": "2022-04-07",
+      "start": "2022-04-08",
+      "end": "2022-05-06",
+      "start_rate": 187.184655,
+      "end_rate": 185.703621,
+      "endpoint_pct": -0.7912154978729435,
+      "max_abs_excursion_pct": 3.0983602795859544,
+      "max_up_pct": 0.0,
+      "max_down_pct": -3.0983602795859544,
+      "source": "https://www.sbp.org.pk/assets/document/publications/MPS-Apr-2022-Eng.pdf"
+    },
+    {
+      "anchor": "2022-05-23",
+      "start": "2022-05-24",
+      "end": "2022-06-20",
+      "start_rate": 200.468793,
+      "end_rate": 209.264138,
+      "endpoint_pct": 4.387388614645871,
+      "max_abs_excursion_pct": 4.387388614645871,
+      "max_up_pct": 4.387388614645871,
+      "max_down_pct": -1.4493612479624218,
+      "source": "https://www.sbp.org.pk/assets/document/publications/MPS-May-2022-Eng.pdf"
+    },
+    {
+      "anchor": "2022-07-07",
+      "start": "2022-07-13",
+      "end": "2022-08-11",
+      "start_rate": 207.996552,
+      "end_rate": 219.672414,
+      "endpoint_pct": 5.613488246670539,
+      "max_abs_excursion_pct": 15.35834449794149,
+      "max_up_pct": 15.35834449794149,
+      "max_down_pct": 0.0,
+      "source": "https://www.sbp.org.pk/assets/document/publications/MPS-Jul-2022-Eng.pdf"
+    },
+    {
+      "anchor": "2022-08-22",
+      "start": "2022-08-23",
+      "end": "2022-09-19",
+      "start_rate": 216.546552,
+      "end_rate": 237.432759,
+      "endpoint_pct": 9.64513487150791,
+      "max_abs_excursion_pct": 9.64513487150791,
+      "max_up_pct": 9.64513487150791,
+      "max_down_pct": 0.0,
+      "source": "https://www.sbp.org.pk/assets/document/publications/MPS-Aug-2022-Eng.pdf"
+    },
+    {
+      "anchor": "2023-09-14",
+      "start": "2023-09-15",
+      "end": "2023-10-13",
+      "start_rate": 297.08137931034486,
+      "end_rate": 277.6672413793104,
+      "endpoint_pct": -6.534956171303341,
+      "max_abs_excursion_pct": 6.534956171303341,
+      "max_up_pct": 0.0,
+      "max_down_pct": -6.534956171303341,
+      "source": "https://www.sbp.org.pk/assets/document/publications/MPS-Sep-2023-Eng.pdf"
+    }
+  ],
+  "control_count_by_year": {
+    "2022": 36,
+    "2023": 36
+  },
+  "mean_event_max_abs_pct": 7.804836886996913,
+  "mean_control_draw_max_abs_pct": 5.027587987990681,
+  "event_minus_mean_control_pct_points": 2.7772488990062323,
+  "fraction_control_draws_at_least_event": 0.0226,
+  "mean_event_abs_endpoint_pct": 5.394436680400121,
+  "median_event_max_abs_pct": 6.534956171303341,
+  "interpretation": "The control-draw fraction is descriptive and not a valid hypothesis-test p-value: case-study events were selected in hindsight, the samples and 20-observation paths can overlap, and other events also affect FX. No signal, causality, or skill claim follows."
+}
